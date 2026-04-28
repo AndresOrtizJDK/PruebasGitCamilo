@@ -10,18 +10,16 @@ package modelo;
  */
 public class Cliente {
 
-    
-     private String nombre;
-     private double peso;
-     private int altura;
-    
-    
+    private String nombre;
+    private double peso;
+    private int altura;
+
     public Cliente(String nombre, double peso, int altura) {
         this.nombre = nombre;
         this.peso = peso;
         this.altura = altura;
     }
-    
+
     public Cliente() {
     }
 
@@ -48,12 +46,10 @@ public class Cliente {
     public void setAltura(int altura) {
         this.altura = altura;
     }
-     
-    public double  imc(double peso, int altura){
-         
-         double resultado = peso / ( (altura/100) * (altura/100) );
-         
-         return resultado; 
-     }
-     
+
+    public double imc() {
+        double alturaMetros = this.altura / 100.0;
+       
+        return this.peso / (alturaMetros * alturaMetros);
+    }
 }

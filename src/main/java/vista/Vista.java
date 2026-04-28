@@ -126,13 +126,13 @@ public class Vista extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField alturaInput;
-    private javax.swing.JButton calcularBoton;
+    public javax.swing.JTextField alturaInput;
+    public javax.swing.JButton calcularBoton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JTextField nombreInput;
-    private javax.swing.JTextField pesoInput;
+    public javax.swing.JTextField nombreInput;
+    public javax.swing.JTextField pesoInput;
     // End of variables declaration//GEN-END:variables
 }

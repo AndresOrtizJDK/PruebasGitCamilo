@@ -12,9 +12,10 @@ public class Main {
         Vista v = new Vista();
         Cliente modelo = new Cliente();
         
-        Clientecontroller c = new Clientecontroller(v, modelo);
-        v.setVisible(true);
-        v.setLocationRelativeTo(null);
+        Clientecontroller camilo = new Clientecontroller(v, modelo);
+        
+        camilo.Iniciar();
+        
 
     }
 }
