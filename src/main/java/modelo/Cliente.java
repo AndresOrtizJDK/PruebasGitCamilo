@@ -21,6 +21,9 @@ public class Cliente {
         this.peso = peso;
         this.altura = altura;
     }
+    
+    public Cliente() {
+    }
 
     public String getNombre() {
         return nombre;
@@ -46,7 +49,7 @@ public class Cliente {
         this.altura = altura;
     }
      
-     public double  imc(double peso, int altura){
+    public double  imc(double peso, int altura){
          
          double resultado = peso / ( (altura/100) * (altura/100) );
          
