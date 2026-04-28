@@ -4,10 +4,28 @@
  */
 package controlador;
 
+import vista.Vista;
+import modelo.Cliente;
+
 /**
  *
- * @author dinah
+ * @author Camilo G
  */
-public class Clientecontroller {
+  
+
+    public class Clientecontroller {
+
+        private Vista vista;
+        private Cliente Cliente;
+
     
+
+    public Clientecontroller(Vista vista, Cliente Cliente) {
+
+        this.vista = vista;
+        this.Cliente = Cliente;
+
+        
+        
+    }
 }
